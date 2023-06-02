@@ -144,5 +144,5 @@
     "TRANSMISSION_WATCH_DIR": "/share/transmission-openvpn/watch",
     "TRANSMISSION_HOME": "/share/transmission-openvpn/transmission-home"
   },
-  "image": "ghcr.io/primusnz/hassio-addons/{arch}-transmission-vpn"
+  "image": "ghcr.io/primusnz/hassio-addons/{arch}-transmission-openvpn"
 }
