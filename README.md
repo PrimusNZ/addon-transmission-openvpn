@@ -2,8 +2,6 @@
 
 ## About
 
-[transmission-openvpn](https://github.com/haugene/docker-transmission-openvpn) is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single transmission-openvpn account simultaneously and therefore appear under the same nickname on IRC.
-
 This addon is based on this docker image: https://hub.docker.com/r/haugene/transmission-openvpn.
 
 ## Installation
@@ -23,4 +21,4 @@ comparison to installing any other Hass.io add-on.
 
 Webui can be found at `<your-ip>:9091`.
 
-[repository]: https://github.com/petersendev/hassio-addons
+[repository]: https://github.com/PrimusNZ/hassio-addons
