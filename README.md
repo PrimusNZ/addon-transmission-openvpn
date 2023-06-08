@@ -1,4 +1,4 @@
-# Hassio Add-ons by petersendev: transmission-openvpn
+# Hassio Add-ons by PrimusNZ: transmission-openvpn
 
 ## About
 

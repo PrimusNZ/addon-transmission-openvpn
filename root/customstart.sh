@@ -1,14 +1,14 @@
 #!/usr/bin/bashio
 
-if [ ! -d /config/transmission-openvpn ]; then
-  echo "Creating /config/transmission-openvpn"
-  mkdir -p /config/transmission-openvpn
-  chown -R abc:abc /config/transmission-openvpn
+if [ ! -d /share/transmission-openvpn/config ]; then
+  echo "Creating /share/transmission-openvpn/config"
+  mkdir -p /share/transmission-openvpn/config
+  chown -R abc:abc /share/transmission-openvpn/config
 fi
 
-if [ -d /config/transmission-openvpn/openvpn ]; then
+if [ -d /share/transmission-openvpn/config/openvpn ]; then
   echo "Copying OpenVPN configurations"  
-  cp -R /config/transmission-openvpn/openvpn/* /etc/openvpn/
+  cp -R /share/transmission-openvpn/config/openvpn/* /etc/openvpn/
 fi
 
 for k in $(bashio::jq "${__BASHIO_ADDON_CONFIG}" 'keys | .[]'); do

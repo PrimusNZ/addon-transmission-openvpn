@@ -1,6 +1,6 @@
 {
   "name": "Transmission OpenVPN",
-  "version": "0.12.1",
+  "version": "0.12.2",
   "slug": "transmission-openvpn",
   "legacy": false,
   "maintenance": {
@@ -139,10 +139,9 @@
     "WEBPROXY_PORT": "str?"
   },
   "environment": {
-    "TRANSMISSION_DOWNLOAD_DIR": "/share/transmission-openvpn/completed",
-    "TRANSMISSION_INCOMPLETE_DIR": "/share/transmission-openvpn/incomplete",
-    "TRANSMISSION_WATCH_DIR": "/share/transmission-openvpn/watch",
-    "TRANSMISSION_HOME": "/share/transmission-openvpn/transmission-home"
+    "TRANSMISSION_DOWNLOAD_DIR": "/media/Downloads/completed",
+    "TRANSMISSION_INCOMPLETE_DIR": "/media/Downloads/incomplete",
+    "TRANSMISSION_HOME": "/share/transmission-openvpn/config/transmission-home"
   },
   "image": "ghcr.io/primusnz/hassio-addons/{arch}-transmission-openvpn"
 }
