@@ -1,6 +1,6 @@
 {
   "name": "Transmission OpenVPN",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "slug": "transmission-openvpn",
   "legacy": false,
   "maintenance": {
@@ -37,7 +37,7 @@
     "PUID": 1001,
     "PGID": 1001,
     "OPENVPN_PROVIDER": "PIA",
-    "OPENVPN_CONFIG": "CA Toronto",
+    "OPENVPN_CONFIG": "ca_toronto",
     "OPENVPN_USERNAME": "",
     "OPENVPN_PASSWORD": "",
     "LOCAL_NETWORK": "192.168.0.0/16",
