@@ -23,7 +23,6 @@
     "9091/tcp": "web ui"
   },
   "map": [
-    "config:rw",
     "share:rw",
     "media:rw",
     "ssl"
