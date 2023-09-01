@@ -1,6 +1,6 @@
 {
   "name": "Transmission OpenVPN",
-  "version": "0.12.3",
+  "version": "0.12.4",
   "slug": "transmission-openvpn",
   "legacy": false,
   "maintenance": {
