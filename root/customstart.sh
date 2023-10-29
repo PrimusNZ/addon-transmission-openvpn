@@ -6,16 +6,16 @@ if [ ! -d /share/transmission-openvpn/config ]; then
   chown -R abc:abc /share/transmission-openvpn/config
 fi
 
-if [ ! -d /media/Downloads/completed ]; then
-  echo "Creating /media/Downloads/completed"
-  mkdir -p /media/Downloads/completed
-  chown -R abc:abc /media/Downloads/completed
+if [ ! -d /share/downloads/completed ]; then
+  echo "Creating /share/downloads/completed"
+  mkdir -p /share/downloads/completed
+  chown -R abc:abc /share/downloads/completed
 fi
 
-if [ ! -d /media/Downloads/incomplete ]; then
-  echo "Creating /media/Downloads/incomplete"
-  mkdir -p /media/Downloads/incomplete
-  chown -R abc:abc /media/Downloads/incomplete
+if [ ! -d /share/downloads/incomplete/torrent ]; then
+  echo "Creating /share/downloads/incomplete/torrent"
+  mkdir -p /share/downloads/incomplete/torrent
+  chown -R abc:abc /share/downloads/incomplete/torrent
 fi
 
 if [ -d /share/transmission-openvpn/config/openvpn ]; then
